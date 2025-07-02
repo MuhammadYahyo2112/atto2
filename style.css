@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e2a78;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.instruction {
+    color: #00ff99;
+}
+
+video {
+    width: 280px;
+    height: 280px;
+    border: 2px solid white;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+#flash-btn, #cancel-btn {
+    background-color: #2e3bbf;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#flash-btn:hover, #cancel-btn:hover {
+    background-color: #1a228f;
+}
